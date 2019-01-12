@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Ruxandra Vasilescu`,
-    description: `This kickass website belongs to Ruxandra Vasilescu, aka Andra.  A former hair colorist on a path to a second career.`,
+    title: `Welcome to RAV`,
+    description: `RAV is an achronym derived from Ruxandra Vasilescu, aka Andra.  A former hair colorist, now a front-end web developer`,
+    keywords: `front-end web developer, react js profficient, node js profficient, javascript, jQuery`,
     author: `@ruxandraV`,
   },
   plugins: [
