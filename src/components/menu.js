@@ -1,23 +1,32 @@
-import React from 'react'
-
+import React from 'react';
+import { Link } from 'gatsby';
 
 const Menu = () => (
  
-  <div style {{
+  <div 
+  style={{
     background: '#f4f4f4',
-    paddingTop: '10px'
-    }}>
-   <ul style={{ 
-    listStyle: none,
+    paddingTop: '10px',
+    }}
+    >
+   <ul 
+   style={{ 
+    listStyle: 'none',
     display: 'flex',
-    justifyContent: 'space-evenly'
-    <li>Home</li>
-    <li>About Me</li>  
-    <li>Contact Me</li>  
-     }}
-    </ul>
+    justifyContent: 'space-evenly',
+   }}
+   >
+    <li>
+    <Link to="/">Home</Link>
+      </li>
+    <li>
+      <Link to="/about">About Me</Link>
+      </li>  
+    <li>
+      <Link to="/contact">Contact Me</Link>
+      </li>  
+    </ul> 
     </div>
-    
     )
 
 
