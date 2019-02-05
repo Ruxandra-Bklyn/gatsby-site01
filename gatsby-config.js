@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Welcome to RAV`,
-    description: `RAV is an achronym derived from Ruxandra Vasilescu, aka Andra.  A former hair colorist, now a front-end web developer`,
-    keywords: `front-end web developer, react js profficient, node js profficient, javascript, jQuery`,
-    author: `@ruxandraV`,
+    title: `RAV`,
+    description: `Ruxandra Vasilescu website. A former hair stylist, now a React Developer. React is a frontend library, which runs in the browser`,
+    keywords: `react developer, react native, react js, frontend library`,
+    author: `@ruxilescu`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,14 +23,22 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#330066`,
-        theme_color: `#330066`,
+        background_color: `##00CCFF`,
+        theme_color: `##00CCFF`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+     'gatsby-plugin-offline',
+     {
+       resolve: `gatsby-source-filesystem`,
+       options: {
+         name: `src`,
+         path: `${__dirname}/src/data`,
+       },
+     },
+     `gatsby-transformer-json`,
   ],
 }

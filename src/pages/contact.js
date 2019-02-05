@@ -8,8 +8,10 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <h1>Say hello</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <p>Have something to say?</p>
+    <Link to="/">Go back to the Home page</Link>
+    <br/>
+    <Link to="/about">Go to About Me page</Link>
   </Layout>
 )
 

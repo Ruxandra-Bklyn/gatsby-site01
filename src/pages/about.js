@@ -10,7 +10,9 @@ const AboutPage = () => (
     <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nostrum consequatur sed illum velit est accusamus, quae fuga autem, sunt, eius assumenda tempora sint laborum commodi praesentium officia quasi maxime!
     </p>
-   <Link to="/">Go back to the homepage</Link>
+   <Link to="/">Go back to the Home page</Link>
+   <br/>
+   <Link to="/contact">Go to Contact page</Link>
   </Layout> 
 )
 

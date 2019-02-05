@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 html {
+  font-family: Georgia;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Georgia', serif;
   margin: 0;
 }
 article,
@@ -20,9 +20,6 @@ nav,
 section,
 summary {
   display: block;
-}
-h1, h2, a {
-  font-family: 'Open Sans', sans-serif;
 }
 audio,
 canvas,
@@ -44,13 +41,17 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #fff;
+  background-color: #00CCFF;
+  color: #000;
   text-decoration: none;
+  font-size: 
 }
 a:active,
 a:hover {
   outline-width: 0;
-  color: #ff6600;
+  font-family: 'Vidaloka', serif;
+  background-color: #00CCFF;
+  color: #000;
 }
 abbr[title] {
   border-bottom: none;
@@ -66,6 +67,7 @@ dfn {
   font-style: italic;
 }
 h1 {
+  font-family: 'Vidaloka', serif;
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -145,7 +147,7 @@ button::-moz-focus-inner {
 [type='button']:-moz-focusring,
 [type='reset']:-moz-focusring,
 [type='submit']:-moz-focusring,
-button:-moz-focusring {
+button:-moz-focusing {
   outline: 1px dotted ButtonText;
 }
 fieldset {
@@ -190,7 +192,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em 'Georgia', serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -204,8 +206,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+ 
+  font-family: Georgia, Times, Times New Roman, serif; 
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -235,8 +237,8 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /*font-family: 'Bree Serif', serif;*/
+  font-family: 'Vidaloka', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -252,8 +254,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Vidaloka', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -269,8 +270,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Vidaloka', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -286,8 +286,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Vidaloka', serif; 
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -303,8 +302,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Vidaloka', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -320,8 +318,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Vidaloka', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -443,6 +440,7 @@ fieldset {
   margin-bottom: 1.45rem;
 }
 blockquote {
+  font-family: 'Vidaloka', serif;
   margin-left: 1.45rem;
   margin-right: 1.45rem;
   margin-top: 0;
