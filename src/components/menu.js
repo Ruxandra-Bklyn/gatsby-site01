@@ -6,7 +6,7 @@ const Menu = () => (
  
   <div 
   style={{
-    background: '#0099cc',
+    background: '#006666',
     paddingTop: '12px',
     }}
     >

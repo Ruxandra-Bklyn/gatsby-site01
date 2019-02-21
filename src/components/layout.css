@@ -1,10 +1,8 @@
 html {
-  font-family: Georgia;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
-  font-family: 'Georgia', serif;
   margin: 0;
 }
 article,
@@ -41,17 +39,16 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  background-color: #00CCFF;
-  color: #000;
+  color: #000000;
   text-decoration: none;
-  font-size: 
+  font-size: 18px;
+  font-size: 1.8em;
 }
 a:active,
 a:hover {
   outline-width: 0;
-  font-family: 'Vidaloka', serif;
-  background-color: #00CCFF;
-  color: #000;
+  background-color: #cc0066;
+  color: #ffffff;
 }
 abbr[title] {
   border-bottom: none;
@@ -67,12 +64,11 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-family: 'Vidaloka', serif;
   font-size: 2em;
   margin: 0.67em 0;
 }
 mark {
-  background-color: #ff0;
+  background-color: #ffcc00;
   color: #000;
 }
 small {
@@ -102,7 +98,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 figure {
   margin: 1em 40px;
@@ -192,7 +188,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em 'Georgia', serif;
+  font: 112.5%/1.45em;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -207,7 +203,7 @@ html {
 }
 body {
  
-  font-family: Georgia, Times, Times New Roman, serif; 
+  font-family: Fira Sans, sans-serif, Georgia, Times, Times New Roman, serif; 
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -254,7 +250,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Vidaloka', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -270,7 +266,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Vidaloka', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -286,7 +282,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Vidaloka', serif; 
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -302,7 +298,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Vidaloka', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -318,7 +314,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Vidaloka', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -440,7 +436,7 @@ fieldset {
   margin-bottom: 1.45rem;
 }
 blockquote {
-  font-family: 'Vidaloka', serif;
+  font-family: 'Playfair Display', serif;
   margin-left: 1.45rem;
   margin-right: 1.45rem;
   margin-top: 0;
