@@ -1,17 +1,16 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
 import Greeting from '../components/greeting';
 
-const IndexPage = () => (
+const IndexPage = ({data}) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Greeting greeting="Welcome" name="Salon Owner" />
-    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h3>
-   <h4> officia voluptas pariatur incidunt aliquid.</h4>
+    <SEO title="Home" keywords={[`digital marketing`, `digital salonhub`, `beauty salons websites`]} />
+    <h1>{data.site.siteMetadata.description}</h1>
+    <Greeting greeting="Welcome" name="savvy entrepreneur!" />
     <p>Recusandae rem quisquam reiciendis magnam repellat soluta qui porro? Nisi?</p>
     <div style={{ maxWidth: `960px`, marginBottom: `1.45rem` }}>
       <Image />
@@ -23,3 +22,15 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+export const query=graphql`
+{
+  site {
+    siteMetadata {
+      title
+      description
+      keywords
+      author
+    }
+  }
+}
+`
