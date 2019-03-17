@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `RAV`,
+    title: `Digital SalonHub`,
     description: `Ruxandra Vasilescu website. A former hair stylist, now a React Developer. React is a frontend library, which runs in the browser`,
     keywords: `react developer, react native, react js, frontend library`,
     author: `@ruxilescu`
@@ -39,14 +39,15 @@ module.exports = {
     
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-     'gatsby-plugin-offline',
-     {
-       resolve: `gatsby-source-filesystem`,
-       options: {
-         name: `src`,
-         path: `${__dirname}/src/data`,
-       },
-     },
-     `gatsby-transformer-json`,
+  
+    // 'gatsby-plugin-offline',
+     //{
+      // resolve: `gatsby-source-filesystem`,
+       //options: {
+      //  name: `src`,
+       //  path: `${__dirname}/src/data`,
+      // },
+     //  },
+     // `gatsby-transformer-json`,
   ],
 }

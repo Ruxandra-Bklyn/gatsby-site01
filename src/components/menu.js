@@ -8,6 +8,7 @@ const Menu = () => (
   style={{
     background: '#006666',
     paddingTop: '12px',
+    color: '#ffffff',
     }}
     >
    <ul 
