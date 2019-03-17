@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Digital SalonHub`,
-    description: `Ruxandra Vasilescu website. A former hair stylist, now a React Developer. React is a frontend library, which runs in the browser`,
-    keywords: `react developer, react native, react js, frontend library`,
+    description: `Websites and Digital Marketing for Beauty Salons and Medical Spas`,
+    keywords: `salon marketing, medical spa marketing, beauty salons websites, medical spa website`,
     author: `@ruxilescu`
   },
   plugins: [
@@ -23,8 +23,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#CC0066`,
-        theme_color: `#CC0066`,
+        background_color: `#006666`,
+        theme_color: `#006666`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },

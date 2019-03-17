@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-import Layout from '../components/layout2';
+import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 import AndraImage from '../images/andraGreenCoat2.jpg';
@@ -54,7 +54,6 @@ const AboutPage = () => (
     username="Ruxandra Vasilescu"
     excerpt="This is about me, embelish as much as you can that's how people do it here"
     />
-
 
 <br />
 
